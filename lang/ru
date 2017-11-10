@@ -1,0 +1,43 @@
+index_title=nginx веб сервер
+index_version=nginx версия $1
+index_defserv=Хост по умолчанию
+
+index_select=Выберите сервер
+index_status=Статус
+index_name=Название сервера
+index_addr=Адрес
+index_port=Порт
+index_root=Document Root
+index_url=URL
+index_view=Вью
+
+opt_select=Select action...
+opt_enable=Включить
+opt_disable=Отключить
+opt_delete=Удалить
+btn_submit=Обновить сервера
+
+status_enabled=Включен
+status_disabled=Отключен
+
+gl_edit=Редактировать nginx.conf
+gl_proxy=Редактировать proxy.conf
+gl_details=Посмотреть детально nginx
+
+manual_title=Редактировать файлы конфигураций
+manual_header=Используйте текстовое поле ниже, чтобы вручную отредактировать файл конфигурации $1.
+
+nginx_apply=Применить изменения
+nginx_stop=Остановить nginx
+nginx_start=Запустить nginx
+
+#stop_nginx=nginx остановлен
+stop_epid=Ошибка открытия PID файла
+stop_esig=Ошибка отправки сигнала SIGTERM для процесса $1
+
+#start_nginx=nginx запущен
+start_err=Ошибка запуска nginx
+
+test_err=Не удаётся протестировать конфигурацию nginx
+
+msg_reload=Уведомление: Изменения могут не применится до тех пор пока nginx не будет перезагружен. <a href="reload.cgi?redir=/nginx/">Применить изменения</a>

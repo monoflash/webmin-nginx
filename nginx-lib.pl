@@ -196,7 +196,7 @@ sub find_directives
   &open_readfile(CONF, $file);
   while ($line = <CONF>) {
     $line =~ s/^\s*#.*$//g;
-    if ($line =~ /server {$/) {
+    if ($line =~ /server \{$/) {
       $skip = 0;
     }
     if ($line =~ /}$/) {
